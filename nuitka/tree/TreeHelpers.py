@@ -53,7 +53,7 @@ def dump(node):
 
 
 def getKind(node):
-    return node.__class__.__name__.split(".")[-1]
+    return node.__class__.__name__.rsplit(".", 1)[-1]
 
 
 def extractDocFromBody(node):
