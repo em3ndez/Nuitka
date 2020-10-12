@@ -130,7 +130,7 @@ Anaconda Python.
 """
             )
 
-    for version_candidate in ("2.7", "2.6", "3.5", "3.6", "3.7", "3.8"):
+    for version_candidate in ("2.7", "2.6", "3.5", "3.6", "3.7", "3.8", "3.9"):
         candidate = Execution.getExecutablePath("python" + version_candidate)
 
         if candidate is not None:
