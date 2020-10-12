@@ -315,6 +315,8 @@ def main():
                     continue
                 if r"powershell" in loaded_filename:
                     continue
+                if r"azure dev spaces cli" in loaded_filenames:
+                    continue
 
             if loaded_filename.startswith(current_dir):
                 continue
